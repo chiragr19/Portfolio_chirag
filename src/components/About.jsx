@@ -24,7 +24,7 @@ export default function About() {
         <div className="grid sm:grid-cols-2 gap-4">
           {[
             {
-              title: "5+ Projects",
+              title: "3+ Projects",
               desc: "Built and refined production-grade UI work",
             },
             {
