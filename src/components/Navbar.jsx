@@ -7,7 +7,7 @@ const navLinks = [
   { href: "#about", label: "About" },
   { href: "#skills", label: "Skills" },
   { href: "#projects", label: "Projects" },
-  { href: "#Education", label: "Education" },
+  // { href: "#Education", label: "Education" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -47,7 +47,7 @@ export default function Navbar() {
       <header className="sticky top-0 z-50 backdrop-blur bg-neutral-950/60 border-b border-white/5">
         <div className="max-w-6xl mx-auto container-px flex items-center justify-between h-16">
           <a href="#home" className="font-semibold text-white text-lg">
-            Chirag<span className="text-brand-500">.</span>
+            Portfolio<span className="text-brand-500"></span>
           </a>
 
           <nav className="hidden md:flex items-center gap-8 text-sm text-neutral-300">

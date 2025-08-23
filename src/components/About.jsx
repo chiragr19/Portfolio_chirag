@@ -12,13 +12,11 @@ export default function About() {
         >
           <SectionTitle title="About me" />
           <p className="mt-6 text-neutral-300">
-            I'm a frontend developer focused on building elegant, accessible
-            interfaces. I specialize in React, Tailwind CSS, and modern frontend
-            tooling, with strong attention to UX nuances and performance.
+            I'm a frontend developer and visionary Computer Science undergraduate at Parul University, Vadodara. I'm passionate about crafting captivating UIs that not only look great but also provide exceptional user experiences. 
           </p>
           <p className="mt-3 text-neutral-300">
-            I enjoy collaborating with designers, shaping component systems, and
-            shipping polished Educations.
+            My proficiency is in React, Tailwind CSS, and modern frontend
+            tooling, with strong attention to UX nuances and performance.
           </p>
         </motion.div>
         <div className="grid sm:grid-cols-2 gap-4">

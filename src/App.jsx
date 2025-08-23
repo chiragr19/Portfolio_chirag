@@ -76,8 +76,8 @@ function App() {
             <Skills />
             <AnimatedDivider />
             <Projects />
-            <AnimatedDivider />
-            <Education />
+            {/* <AnimatedDivider />
+            <Education /> */}
             <AnimatedDivider />
             <Contact />
           </div>

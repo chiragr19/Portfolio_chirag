@@ -1,13 +1,13 @@
 const items = [
   {
-    title: "Frontend Engineer • Freelance",
-    time: "2024 — Present",
-    desc: "Collaborate with clients to design and build responsive, accessible interfaces with React and Tailwind.",
+    title: "Parul University • 4th Year",
+    time: "2022 — 2026",
+    desc: "I am currently pursuing my Bachelor's degree in Computer Science.",
   },
   {
-    title: "Open Source Contributor",
-    time: "2023 — Present",
-    desc: "Contribute to UI libraries and documentation to improve developer Education.",
+    title: "Shri Ajit Vidhya Mandir • 12th CBSE",
+    time: "2021 — 2022",
+    desc: "I completed my 12th standard from Shri Ajit Vidhya Mandir, Sirohi.",
   },
 ];
 
