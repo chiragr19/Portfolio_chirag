@@ -53,7 +53,7 @@ export default function Skills() {
     { name: "Bootstrap", icon: <SiBootstrap size={32} color="#7952B3" /> },
     { name: "Vercel", icon: <SiVercel size={32} color="#000000" /> },
     { name: "Git", icon: <SiGit size={32} color="#F05032" /> },
-    { name: "GitHub", icon: <SiGithub size={32} color="#ffffff" /> },
+    { name: "GitHub", icon: <SiGithub size={32} className="text-neutral-900 dark:text-white" /> },
     { name: "JavaScript", icon: <SiJavascript size={32} color="#F7DF1E" /> },
     { name: "TypeScript", icon: <SiTypescript size={32} color="#3178C6" /> },
   ];
@@ -114,7 +114,7 @@ export default function Skills() {
               >
                 {skill.icon}
               </motion.div>
-              <span className="mt-2 text-sm font-medium text-gray-200">
+              <span className="mt-2 text-sm font-medium text-neutral-800 dark:text-gray-200">
                 {skill.name}
               </span>
             </motion.div>

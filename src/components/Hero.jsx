@@ -20,7 +20,7 @@ export default function Hero() {
           </span>
         </motion.div>
 
-        {/* Main Heading (2 lines exactly as requested) */}
+        {/* Main Heading */}
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -38,7 +38,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}
-          className="mt-6 text-lg text-neutral-300 leading-relaxed max-w-2xl mx-auto"
+          className="mt-6 text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed max-w-2xl mx-auto"
         >
           I build modern, accessible web Educations using React, Tailwind, and a
           keen eye for detail. Passionate about creating interfaces that users
@@ -76,23 +76,23 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.4 }}
-          className="mt-10 flex items-center justify-center gap-5 text-neutral-300"
+          className="mt-10 flex items-center justify-center gap-5 text-neutral-600 dark:text-neutral-300"
         >
-          <span className="text-sm text-neutral-400">Follow me</span>
+          <span className="text-sm text-neutral-500 dark:text-neutral-400">Follow me</span>
           <div className="flex gap-4">
             <motion.a
-              href="https://github.com/"
+              href="https://github.com/chiragr19/"
               target="_blank"
-              className="p-2 rounded-full border border-neutral-700 hover:border-brand-400 hover:text-brand-400 transition-all"
+              className="p-2 rounded-full border border-black/10 dark:border-neutral-700 hover:border-brand-400 hover:text-brand-400 transition-all text-neutral-700 dark:text-inherit"
               whileHover={{ y: -3 }}
               aria-label="GitHub"
             >
               <FiGithub size={20} />
             </motion.a>
             <motion.a
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/chirag-rawal-a05928212/"
               target="_blank"
-              className="p-2 rounded-full border border-neutral-700 hover:border-brand-400 hover:text-brand-400 transition-all"
+              className="p-2 rounded-full border border-black/10 dark:border-neutral-700 hover:border-brand-400 hover:text-brand-400 transition-all text-neutral-700 dark:text-inherit"
               whileHover={{ y: -3 }}
               aria-label="LinkedIn"
             >
@@ -100,7 +100,7 @@ export default function Hero() {
             </motion.a>
             <motion.a
               href="#contact"
-              className="p-2 rounded-full border border-neutral-700 hover:border-brand-400 hover:text-brand-400 transition-all"
+              className="p-2 rounded-full border border-black/10 dark:border-neutral-700 hover:border-brand-400 hover:text-brand-400 transition-all text-neutral-700 dark:text-inherit"
               whileHover={{ y: -3 }}
               aria-label="Email"
             >

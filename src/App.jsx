@@ -59,15 +59,15 @@ function App() {
   }, []);
 
   return (
-    <div className="font-sans bg-neutral-950 text-neutral-100 min-h-screen">
+    <div className="font-sans min-h-screen">
       {/* Background grid with proper positioning */}
-      <div className="fixed inset-0 -z-10 bg-grid opacity-30 [mask-image:radial-gradient(ellipse_at_center,black,transparent_75%)]" />
+      <div className="fixed inset-0 -z-10 bg-grid opacity-20 dark:opacity-30 [mask-image:radial-gradient(ellipse_at_center,black,transparent_75%)]" />
 
       {/* Main content container with proper alignment */}
       <div className="relative z-10 flex flex-col min-h-screen">
         <Navbar />
 
-        <main className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <main className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-8">
           <div className="space-y-12">
             <Hero />
             <AnimatedDivider />
@@ -76,8 +76,6 @@ function App() {
             <Skills />
             <AnimatedDivider />
             <Projects />
-            {/* <AnimatedDivider />
-            <Education /> */}
             <AnimatedDivider />
             <Contact />
           </div>
@@ -94,17 +92,18 @@ const AnimatedDivider = () => {
   return (
     <div className="relative h-1 flex items-center justify-center my-8 overflow-hidden">
       <div className="absolute inset-0 flex items-center">
-        {/* flowing gradient line */}
-        <div className="w-full h-px bg-gradient-to-r from-transparent via-brand-400/50 to-transparent animate-bg-slide"></div>
+        {/* flowing gradient line - brighter in light mode for visibility */}
+        <div className="w-full h-px bg-gradient-to-r from-neutral-300/60 via-brand-600/70 to-neutral-300/60 animate-bg-slide dark:hidden"></div>
+        <div className="w-full h-px bg-gradient-to-r from-transparent via-brand-400/50 to-transparent animate-bg-slide hidden dark:block"></div>
       </div>
 
       {/* Animated orb that moves across the divider */}
-      <div className="absolute h-3 w-3 rounded-full bg-brand-400 animate-move-x shadow-lg shadow-brand-400/50"></div>
+      <div className="absolute h-3 w-3 rounded-full bg-brand-600 dark:bg-brand-400 animate-move-x shadow-lg shadow-brand-600/40 dark:shadow-brand-400/50"></div>
 
       {/* Glowing dots along the line */}
-      <div className="absolute h-2 w-2 rounded-full bg-brand-400/70 animate-ping-slow left-1/4"></div>
-      <div className="absolute h-2 w-2 rounded-full bg-purple-400/70 animate-ping-slow left-1/2 animation-delay-1000"></div>
-      <div className="absolute h-2 w-2 rounded-full bg-brand-400/70 animate-ping-slow left-3/4 animation-delay-2000"></div>
+      <div className="absolute h-2 w-2 rounded-full bg-brand-600/80 dark:bg-brand-400/70 animate-ping-slow left-1/4"></div>
+      <div className="absolute h-2 w-2 rounded-full bg-purple-600/80 dark:bg-purple-400/70 animate-ping-slow left-1/2 animation-delay-1000"></div>
+      <div className="absolute h-2 w-2 rounded-full bg-brand-600/80 dark:bg-brand-400/70 animate-ping-slow left-3/4 animation-delay-2000"></div>
     </div>
   );
 };

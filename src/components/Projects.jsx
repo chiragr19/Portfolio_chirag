@@ -1,4 +1,4 @@
-import { FiExternalLink, FiGithub } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
 import { motion } from "framer-motion";
 import SectionTitle from "./SectionTitle";
 
@@ -55,28 +55,21 @@ export default function Projects() {
               whileHover={{ y: -6 }}
               transition={{ type: "spring", stiffness: 260, damping: 20 }}
             >
-              <div className="aspect-video bg-gradient-to-br from-white/10 to-white/5" />
+              <div className="aspect-video bg-gradient-to-br from-black/5 to-black/0 dark:from-white/10 dark:to-white/5" />
               <div className="p-5">
                 <h3 className="font-medium text-lg">{p.title}</h3>
-                <p className="mt-2 text-neutral-300 text-sm">{p.desc}</p>
+                <p className="mt-2 text-neutral-700 dark:text-neutral-300 text-sm">{p.desc}</p>
                 <div className="mt-3 flex flex-wrap gap-2">
                   {p.tags.map((t) => (
                     <span
                       key={t}
-                      className="px-2.5 py-1 rounded-full bg-white/5 border border-white/10 text-xs"
+                      className="px-2.5 py-1 rounded-full bg-black/5 border border-black/10 dark:bg-white/5 dark:border-white/10 text-xs"
                     >
                       {t}
                     </span>
                   ))}
                 </div>
                 <div className="mt-4 flex items-center gap-3">
-                  <a
-                    href={p.link}
-                    target="_blank"
-                    className="btn btn-secondary"
-                  >
-                    <FiExternalLink /> Live
-                  </a>
                   <a
                     href={p.code}
                     target="_blank"
