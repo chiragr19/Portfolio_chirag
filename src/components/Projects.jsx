@@ -7,7 +7,7 @@ const projects = [
     title: "Budget Tracker",
     desc: "A lightweight Budget Tracker to manage income and expenses.",
     tags: ["HTML", "Tailwind", "JavaScript"],
-    code: "https://github.com/chiragrawal2468/Budget-Tracker",
+    code: "https://github.com/chiragr19/Budget_Tracker",
   },
 
 ];
@@ -59,7 +59,9 @@ export default function Projects() {
                   <a
                     href={p.code}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="btn btn-secondary"
+                    onClick={(e) => e.stopPropagation()}
                   >
                     <FiGithub /> Code
                   </a>
