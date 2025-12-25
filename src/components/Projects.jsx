@@ -4,26 +4,12 @@ import SectionTitle from "./SectionTitle";
 
 const projects = [
   {
-    title: "UI Kit Dashboard",
-    desc: "A modern dashboard with charts, theming, and responsive layout.",
-    tags: ["React", "Tailwind", "Recharts"],
-    link: "#",
-    code: "#",
+    title: "Budget Tracker",
+    desc: "A lightweight Budget Tracker to manage income and expenses.",
+    tags: ["HTML", "Tailwind", "JavaScript"],
+    code: "https://github.com/chiragrawal2468/Budget-Tracker",
   },
-  {
-    title: "E-commerce Storefront",
-    desc: "Headless commerce storefront with filters, cart, and checkout.",
-    tags: ["React", "Tailwind", "Stripe"],
-    link: "#",
-    code: "#",
-  },
-  {
-    title: "Portfolio Engine",
-    desc: "Animated portfolio with routing, CMS content, and SEO.",
-    tags: ["React", "Tailwind", "Framer Motion"],
-    link: "#",
-    code: "#",
-  },
+
 ];
 
 export default function Projects() {
