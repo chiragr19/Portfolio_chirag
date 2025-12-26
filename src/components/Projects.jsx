@@ -9,7 +9,12 @@ const projects = [
     tags: ["HTML", "Tailwind", "JavaScript"],
     code: "https://github.com/chiragr19/Budget_Tracker",
   },
-
+  {
+    title: "Artify - Text to Image Generator",
+    desc: "An AI-powered web app that generates images from text prompts.",
+    tags: ["HTML5", "JavaScript","React", "Tailwind","MongoDB","Node.js"],
+    code: "https://github.com/chiragr19/Aartify",
+  },
 ];
 
 export default function Projects() {
