@@ -46,7 +46,7 @@ export default function Projects() {
               whileHover={{ y: -6 }}
               transition={{ type: "spring", stiffness: 260, damping: 20 }}
             >
-              <div className="aspect-video bg-gradient-to-br from-black/5 to-black/0 dark:from-white/10 dark:to-white/5" />
+              <div className="bg-gradient-to-br from-black/5 to-black/0 dark:from-white/10 dark:to-white/5" />
               <div className="p-5">
                 <h3 className="font-medium text-lg">{p.title}</h3>
                 <p className="mt-2 text-neutral-700 dark:text-neutral-300 text-sm">{p.desc}</p>

@@ -55,7 +55,6 @@ export default function Skills() {
     { name: "Git", icon: <SiGit size={32} color="#F05032" /> },
     { name: "GitHub", icon: <SiGithub size={32} className="text-neutral-900 dark:text-white" /> },
     { name: "JavaScript", icon: <SiJavascript size={32} color="#F7DF1E" /> },
-    { name: "TypeScript", icon: <SiTypescript size={32} color="#3178C6" /> },
   ];
 
   const sectionRef = useRef(null);

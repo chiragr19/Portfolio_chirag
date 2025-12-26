@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="section-padding min-h-screen flex items-center justify-center"
+      className="pt-8 md:pt-12 pb-20 md:pb-28 min-h-screen flex items-center justify-center"
     >
       <div className="max-w-4xl mx-auto container-px text-center">
         {/* Intro */}
